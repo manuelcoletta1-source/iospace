@@ -1,58 +1,70 @@
-# Io-Space — Spazio identitario digitale (Hermeticum B.C.E.)
-
-Io-Space è il **nodo BCE** dedicato allo **spazio identitario digitale**:
-struttura identità, attributi, contesti e evidenze in modo verificabile e interoperabile.
+# Io-Space — Spazio Identitario Digitale
+## Identity · Context · Evidence (UE / Horizon)
 
 ---
 
-## Nodi Pubblici (GitHub Pages)
+## Cos’è Io-Space
+**Io-Space** è il nodo BCE dedicato allo **spazio identitario digitale**: un contenitore strutturato dove
+**identità, attributi, contesti operativi e prove (evidence)** vengono organizzati per essere
+**verificabili, continui e interoperabili**.
 
-- **Io-Space (Pages)**  
-  https://manuelcoletta1-source.github.io/io-space/
-
-- **Services (HUB)**  
-  https://manuelcoletta1-source.github.io/hermeticum-bce-services/
-
-- **Technology**  
-  https://manuelcoletta1-source.github.io/Hermeticum-B.C.E.-Technology/
+Io-Space non è un’identità civile.  
+È un ambiente tecnico per gestione identitaria operativa e prova.
 
 ---
 
-## Scopo
-
-- Gestire identità e profili (IPR-aware)
-- Collegare attributi → evidenze → tempo
-- Definire contesti e ruoli (sessioni operative)
-- Integrarsi con registri e nodi BCE
-
----
-
-## Struttura consigliata del repo
-
-- `/index.html` — pagina pubblica
-- `/identity/` — core identitario
-- `/attributes/` — claims e attributi
-- `/contexts/` — sessioni e ruoli
-- `/evidence/` — evidenze e riferimenti
-- `/docs/` — note e specifiche
+## Perché serve
+Nei sistemi complessi il problema non è solo “avere dati di identità”, ma:
+- collegare attributi a evidenze verificabili
+- mantenere continuità nel tempo
+- definire contesti (ruoli/sessioni) e responsabilità
+- supportare audit e interoperabilità in ambito UE
 
 ---
 
-## Relazioni BCE
+## Componenti
+- **Identity Core** — struttura identitaria (IPR-aware)
+- **Attributes / Claims** — attributi + evidenze associate
+- **Context Sessions** — sessioni, ruoli, ambienti operativi
+- **Evidence Vault** — riferimenti, hash, timestamp, verifiche
+- **Interop Layer** — export/API e compatibilità
 
-- UE IPR Registry → registro/verifica
-- UNEBDO → validità
-- OPC → opponibilità
-- MetaExchange → scambio tracciato
-- NeuroLoop → continuità
-- GitJoker-C2 → esecuzione
+---
+
+## Relazioni con i nodi Hermeticum B.C.E.
+- **Registro UE IPR** → identità e continuità del titolare
+- **UNEBDO** → evidenze e tracciabilità nel tempo
+- **OPC** → policy e opponibilità tecnica
+- **MetaExchange** → scambi tracciati (dati/diritti/valore)
+- **GitJoker (AIJOKER-C2)** → workflow operativi e produzione su Git
+
+---
+
+## Ambito UE
+Io-Space è concepito per essere UE/Horizon-compatible:
+- supporto a governance e auditability (Horizon Europe)
+- accountability e logging per contesti AI ad alto rischio (AI Act)
+- tracciabilità e resilienza operativa (NIS2 / CER)
+- integrità e continuità temporale (eIDAS / ETSI)
 
 ---
 
 ## Stato
-
-🟢 ATTIVO — sviluppo controllato
+- **Stato:** ATTIVO — nodo in costruzione controllata
+- **Categoria:** Identity Space / Evidence / Context
+- **Livello:** UE-ready / Horizon-compatible (sperimentale)
 
 ---
 
-© Hermeticum B.C.E. — Manuel Coletta
+## Link
+- Io-Space (pagina pubblica): https://manuelcoletta1-source.github.io/iospace/
+- Registro UE IPR: https://manuelcoletta1-source.github.io/ue-ipr-registry/
+- GitJoker: https://manuelcoletta1-source.github.io/gitjoker-c2/
+- OPC: https://manuelcoletta1-source.github.io/opc/
+- UNEBDO: https://manuelcoletta1-source.github.io/unebdo/
+- MetaExchange: https://manuelcoletta1-source.github.io/metaexchange/
+
+---
+
+© HERMETICUM B.C.E. S.r.l. — Manuel Coletta  
+Io-Space · Spazio identitario digitale
