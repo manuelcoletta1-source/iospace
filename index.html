@@ -1,168 +1,123 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="it">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Io-Space — Space & Energy Domain (UE)</title>
-
-  <meta name="description" content="Io-Space è il dominio in cui un’identità occupa uno spazio e manifesta energia in modo misurabile, tracciabile e opponibile nel tempo." />
-  <meta name="robots" content="index, follow" />
-
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>IOSPACE — Hermeticum B.C.E.</title>
+  <meta name="description" content="IOSPACE: infrastruttura di operatività e spazio di interazione in Hermeticum B.C.E., integrata con IPR, policy UNEBDO e moduli di conformità." />
+  <meta name="author" content="Manuel Coletta" />
+  <meta name="publisher" content="Esoterologia Edizioni" />
   <style>
     :root { color-scheme: dark; }
     body {
-      margin:0;
+      margin: 0;
       font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-      background:#0b0c10;
-      color:#e8e8e8;
+      background: #0b0c10;
+      color: #e8e8e8;
     }
     header, main, footer {
-      max-width: 1120px;
+      max-width: 1100px;
       margin: 0 auto;
       padding: 24px;
     }
     .card {
-      background:#0f1117;
-      border:1px solid #24262b;
-      border-radius:18px;
-      padding:22px;
-      margin-bottom:18px;
+      background: #0f1117;
+      border: 1px solid #24262b;
+      border-radius: 18px;
+      padding: 22px;
+      box-shadow: 0 12px 30px rgba(0,0,0,.35);
     }
-    h1 { margin:0 0 10px 0; font-size:34px; }
-    h2 { margin:22px 0 10px 0; font-size:20px; }
-    p { margin:8px 0; line-height:1.6; color:#cfd2d6; }
-    ul { margin:8px 0 8px 20px; color:#cfd2d6; }
-    li { margin:6px 0; }
-    a { color:#d6b8ff; text-decoration:none; }
-    a:hover { text-decoration:underline; }
-    .meta { font-size:13px; color:#9aa2aa; }
-    .tag {
-      display:inline-block;
-      padding:4px 12px;
-      border:1px solid #24262b;
-      border-radius:999px;
-      font-size:12px;
-      background:#0b0c10;
-      color:#cfd2d6;
-      margin-right:6px;
-      margin-top:6px;
-    }
+    h1 { font-size: 30px; margin: 0 0 10px; }
+    h2 { font-size: 18px; font-weight: 600; opacity: .9; margin: 0 0 18px; }
+    p { line-height: 1.55; opacity: .95; }
     .grid {
-      display:grid;
-      gap:16px;
-      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 16px;
     }
-    .rule {
-      border-left:4px solid #d6b8ff;
-      padding-left:14px;
+    .btns {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 16px;
     }
     .btn {
-      display:inline-block;
-      padding:10px 14px;
-      border-radius:14px;
-      border:1px solid #24262b;
-      background:#0b0c10;
-      margin:6px 6px 0 0;
+      border: 1px solid #2b2f38;
+      border-radius: 12px;
+      padding: 10px 14px;
+      background: #111420;
+      color: #9bdcff;
+      text-decoration: none;
+      font-size: 14px;
     }
+    .btn:hover { text-decoration: underline; }
+    .tag {
+      display: inline-block;
+      font-size: 12px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      border: 1px solid #2b2f38;
+      opacity: .85;
+      margin-bottom: 12px;
+    }
+    .muted { opacity: .75; font-size: 13px; }
+    footer { text-align: center; }
   </style>
 </head>
-
 <body>
 
 <header>
   <div class="card">
-    <h1>Io-Space</h1>
-    <p class="meta">Space & Energy Domain · UE / Horizon</p>
-
-    <div class="rule">
-      <p>
-        <strong>Io-Space</strong> è il dominio in cui
-        <strong>un’identità occupa uno spazio e manifesta energia</strong>
-        in modo <strong>misurabile, tracciabile e opponibile nel tempo</strong>.
-      </p>
-      <p class="meta">
-        Non è un ambiente simbolico. È una struttura fisica e operativa.
-      </p>
-    </div>
-
-    <div>
-      <span class="tag">Identity-Centric</span>
-      <span class="tag">Space-Aware</span>
-      <span class="tag">Energy-Aware</span>
-      <span class="tag">Audit-First</span>
-      <span class="tag">UE-ready</span>
-    </div>
-
-    <div>
+    <div class="tag">Infrastruttura Operativa</div>
+    <h1>IOSPACE</h1>
+    <h2>Hermeticum B.C.E. · Contesto operativo verificabile</h2>
+    <p>
+      IOSPACE è l’infrastruttura che definisce **spazi operativi coerenti**,
+      integrati con IPR, policy UNEBDO e moduli di conformità,
+      per consentire interazioni governate e tracciabili.
+    </p>
+    <div class="btns">
       <a class="btn" href="./README.md">README</a>
-      <a class="btn" href="https://manuelcoletta1-source.github.io/ue-ipr-registry/">Registro UE IPR</a>
-      <a class="btn" href="https://manuelcoletta1-source.github.io/unebdo/">UNEBDO</a>
-      <a class="btn" href="https://manuelcoletta1-source.github.io/opc/">OPC</a>
-      <a class="btn" href="https://manuelcoletta1-source.github.io/neuroloop/">NeuroLoop</a>
-      <a class="btn" href="https://manuelcoletta1-source.github.io/cyberglobal/">CyberGlobal</a>
+      <a class="btn" href="../unebdo/">UNEBDO</a>
+      <a class="btn" href="../opc/">OPC</a>
+      <a class="btn" href="../ipr-gate/">IPR-GATE</a>
+      <a class="btn" href="../ipr-comply/">IPR-COMPLY</a>
+      <a class="btn" href="../ipr-exchange/">IPR-EXCHANGE</a>
+      <a class="btn" href="../gitjoker-c2/">GitJoker-C2</a>
     </div>
   </div>
 </header>
 
-<main>
+<main class="grid">
 
   <section class="card">
-    <h2>Struttura fondamentale</h2>
-    <div class="grid">
-      <div class="card">
-        <h2>Spazio</h2>
-        <p>
-          Lo <strong>spazio</strong> definisce dove l’identità opera:
-          contesto, ambiente, ruolo, posizione operativa.
-        </p>
-        <p class="meta">
-          Digitale, percettivo, clinico, istituzionale.
-        </p>
-      </div>
-      <div class="card">
-        <h2>Energia</h2>
-        <p>
-          L’<strong>energia</strong> misura come l’identità agisce:
-          intensità, consumo, sforzo, capacità residua.
-        </p>
-        <p class="meta">
-          Fisiologica, cognitiva, interattiva, di sistema.
-        </p>
-      </div>
-    </div>
+    <h3>Ruolo architetturale</h3>
+    <p>
+      IOSPACE fornisce un **ambiente verificabile di esecuzione**
+      per operazioni basate su IPR.
+      Le policy e la conformità governano lo spazio stesso.
+    </p>
+    <p class="muted">
+      Se non è verificabile, non è operativo.
+    </p>
   </section>
 
-  <section class="card">
-    <h2>Componenti di Io-Space</h2>
-    <ul>
-      <li><strong>Identity Core</strong> — identità primaria e continuità</li>
-      <li><strong>Space Layer</strong> — contesti, ambienti, ruoli</li>
-      <li><strong>Energy Layer</strong> — stati energetici misurabili</li>
-      <li><strong>Perceptual Layer</strong> — atto umano osservabile</li>
-      <li><strong>Evidence Layer</strong> — tempo, hash, opponibilità</li>
-      <li><strong>Interop Layer</strong> — integrazione UE</li>
-    </ul>
-  </section>
-
-  <section class="card">
-    <h2>Ambiti di applicazione</h2>
-    <ul>
-      <li>Identità digitale avanzata</li>
-      <li>Sanità e stabilizzazione neuro-energetica</li>
-      <li>Cybersicurezza comportamentale</li>
-      <li>Ricerca Horizon Europe</li>
-    </ul>
-  </section>
+  <aside class="card">
+    <h3>Stato</h3>
+    <p class="muted">
+      🟢 ATTIVO<br/>
+      Modulo di infrastruttura operativa verificabile.
+    </p>
+  </aside>
 
 </main>
 
 <footer>
-  <div class="card">
-    <p class="meta">
-      © 2026 — HERMETICUM B.C.E. S.r.l. — Manuel Coletta<br/>
-      Io-Space · Space & Energy Domain
-    </p>
-  </div>
+  <p class="muted">
+    © Manuel Coletta<br/>
+    <b>Esoterologia Edizioni</b><br/>
+    IOSPACE · Hermeticum B.C.E.
+  </p>
 </footer>
 
 </body>
